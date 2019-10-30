@@ -15,6 +15,10 @@ function GroupCssMediaQueriesLoader(inputSource, prevMap, meta) {
     options.sourceMap === undefined
       ? this.sourceMap
       : Boolean(options.sourceMap);
+  const mobileFirst =
+    options.mobileFirst === undefined
+      ? this.mobileFirst
+      : Boolean(options.mobileFirst);
   const callback = this.async();
 
   pipeline

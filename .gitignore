@@ -2,3 +2,4 @@ node_modules/
 lib/
 test/b.css
 yarn-error.log
+.idea

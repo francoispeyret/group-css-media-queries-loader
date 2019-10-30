@@ -55,3 +55,7 @@ module.exports = {
 #### **`sourceMap`** boolean `true` or `false`
 
 Enable CSS source maps.
+
+#### **`mobileFirst`** boolean `true` or `false`
+
+Sort Media-queries in order for mobile or desktop first

@@ -53,6 +53,8 @@ const sortMedia = dimensionKey => (a, b) => {
   if (b[UNIT] === "em") {
     b[dimensionKey] *= EM_TO_PX_RATIO;
   }
+  // @todo if mobileFirst
+  // return a[dimensionKey] + b[dimensionKey];
   return a[dimensionKey] - b[dimensionKey];
 };
 
